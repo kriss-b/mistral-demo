@@ -1,7 +1,7 @@
 # AI Management System (AIMS) Policy
 
 ## 1. Purpose
-This document defines the overarching policy governing the AI Management System (AIMS) of **ACME CORP**. It serves as the master policy for responsible AI, providing the framework within which all other AI-related policies, procedures, and controls operate.
+This document defines the overarching policy governing the AI Management System (AIMS) of **Mistral AI**. It serves as the master policy for responsible AI, providing the framework within which all other AI-related policies, procedures, and controls operate.
 
 This policy is aligned with **ISO 42001:2023 (Clauses 4, 5, 6, 8, 9 and 10)** and supports the Company's commitment to developing, deploying, and using AI systems in a responsible, transparent, and accountable manner.
 
@@ -9,7 +9,7 @@ This policy is aligned with **ISO 42001:2023 (Clauses 4, 5, 6, 8, 9 and 10)** an
 
 ## 2. Introduction & Objectives
 
-ACME CORP is committed to establishing, implementing, maintaining, and continually improving its AIMS in accordance with ISO 42001:2023.
+Mistral AI is committed to establishing, implementing, maintaining, and continually improving its AIMS in accordance with ISO 42001:2023.
 
 The objectives of the AIMS are to:
 
@@ -26,9 +26,9 @@ These objectives are reviewed at least annually as part of the management review
 
 ## 3. Context of the Organisation
 
-ACME CORP develops and operates AI-powered products and services, including systems that interact with customers and process sensitive data. The Company uses and integrates third-party foundation models and AI services as part of its product offerings.
+Mistral AI is a frontier AI lab that researches, trains, and releases its own open-weight and commercial large language models (the Mistral and Mixtral families and their successors) as its core business. It delivers these models directly to customers and developers through **Le Chat** and **La Plateforme**, and distributes them as open weights and via cloud marketplaces. As a developer and **provider of general-purpose AI (GPAI) models**, the Company carries primary responsibility for the responsible development, evaluation, documentation, and safe release of the models it builds. It also integrates a limited set of third-party models (e.g., image generation in Le Chat), for which it acts as a deployer.
 
-The AIMS has been designed to reflect the Company's size, AI maturity, and operational context, balancing AI governance requirements with business agility.
+The AIMS has been designed to reflect the Company's position as a foundation-model developer operating at frontier scale, its rapid growth, and its exposure under the EU AI Act's provisions for GPAI models, balancing rigorous AI governance with the pace of AI research.
 
 ---
 
@@ -40,21 +40,23 @@ The following issues are considered in defining the scope and objectives of the 
 
 | Issue | Impact on AIMS |
 |-------|----------------|
-| Reliance on third-party foundation models | Dependency on external providers for model governance and updates |
-| Rapid AI technology evolution | Models, tools, and risks change faster than traditional software |
-| Early-stage AI governance maturity | Policies and controls are being progressively implemented |
-| Limited AI-specialised talent | AI governance roles may be combined with other responsibilities |
-| Integration of AI across multiple products | Broad scope of AI systems requiring consistent governance |
+| The Company develops and releases its own frontier models | Primary responsibility for training-data governance, evaluation, safety, and responsible release rests internally |
+| Model weights and training pipelines are crown-jewel assets | AI governance is tightly coupled with information security controls around these assets |
+| Rapid AI research and release cadence | Models, capabilities, and risks change faster than traditional software; governance must keep pace |
+| Open-weight release model | Once released, weights cannot be recalled; pre-release capability and misuse assessment is critical |
+| Scaling AI-governance and safety functions during rapid growth | AI-safety, evaluation, and governance capacity must scale with model capability |
+| AI systems span multiple products and modalities (text, code, audio, vision) | Broad and evolving scope of AI systems requiring consistent governance |
 
 ### 4.2 External Issues
 
 | Issue | Impact on AIMS |
 |-------|----------------|
-| EU AI Act and emerging AI regulations | Compliance obligations vary by AI system risk classification |
-| Customer concerns about AI transparency and bias | Evidence of responsible AI practices increasingly required |
-| Evolving AI threat landscape | New attack vectors (prompt injection, adversarial inputs) require ongoing attention |
-| Public and societal scrutiny of AI systems | Reputational risk from harmful or biased AI outputs |
-| Third-party and supply chain risks | AI model providers and data suppliers shall meet governance standards |
+| EU AI Act obligations for providers of GPAI models (incl. systemic-risk tier) | Documentation, transparency, evaluation, systemic-risk assessment, and serious-incident reporting duties |
+| Customer and regulator concerns about AI transparency, bias, and safety | Evidence of responsible-AI practices increasingly required in enterprise and public-sector deals |
+| Evolving AI threat landscape | New attack vectors (prompt injection, jailbreaks, model extraction, data poisoning) require ongoing attention |
+| Public and societal scrutiny of frontier models and open-weight releases | Reputational and policy risk from harmful, biased, or misused AI outputs |
+| Dual-use and misuse concerns for capable models | Release decisions must weigh potential for misuse (cyber, bio, disinformation) |
+| Third-party and supply-chain risks (compute, data, integrated models) | Compute/data-centre partners, data suppliers, and integrated model providers shall meet governance standards |
 
 ---
 
@@ -138,13 +140,19 @@ The AIMS applies to the following locations:
 ### 9.1 AIMS Owner
 The **CTO** is responsible for the overall management and performance of the AIMS. This includes coordinating AI risk assessments, managing the AI policy framework, and driving continual improvement.
 
-### 9.2 CISO
-The **CISO** is responsible for the security dimension of AI governance, including AI-specific incident response, adversarial testing standards, and AI risk register maintenance.
+### 9.2 Head of AI Safety / Responsible AI Lead
+The **Head of AI Safety** is responsible for the responsible-AI and safety dimension of the AIMS, including model evaluation, red-teaming, AI System Impact Assessments, and prompt/output safety controls and misuse mitigations.
 
-### 9.3 Executive Responsibility
+### 9.3 Chief Science Officer / Head of Research
+The **Chief Science Officer** is responsible for training-data governance, provenance, and quality, and — jointly with the CTO and CISO — for model release and open-weight publication decisions.
+
+### 9.4 CISO
+The **CISO** is responsible for the security dimension of AI governance, including AI-specific incident response, adversarial-testing standards, protection of model weights, and AI risk register maintenance.
+
+### 9.5 Executive Responsibility
 The **CEO** provides overall leadership and ensures that adequate resources are allocated to the AIMS. The CEO approves the AIMS Policy and any significant changes to the AIMS scope or risk appetite.
 
-### 9.4 All Employees
+### 9.6 All Employees
 All employees and contractors are responsible for complying with AI policies, using AI systems responsibly, and reporting AI-related concerns or incidents promptly.
 
 Full role definitions are documented in the **[Roles and Responsibilities Policy](../../policies/roles_and_responsibilities_policy.md)**.
@@ -259,3 +267,4 @@ This policy will be reviewed annually or following significant changes to the or
 | Version | Date | Owner | Approver | Changes |
 |---------|------|-------|----------|---------|
 | 1.0 | TBD | CTO | CEO | Initial version |
+| 1.1 | 2026-07-07 | CTO | CEO | Tailored context, issues, and governance to Mistral AI as a developer/provider of frontier GPAI models; added Head of AI Safety and Chief Science Officer roles |
