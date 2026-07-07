@@ -1,16 +1,19 @@
 # Statement of Applicability (SoA)
 
 ## 1. Introduction
-This **Statement of Applicability (SoA)** identifies the controls from **Annex A of ISO 27001:2022** that are applicable to **ACME CORP** and justifies their inclusion or exclusion. It also tracks the implementation status and the document(s) that implement each control. This document is a key artefact of the **Information Security Management System (ISMS)**.
+This **Statement of Applicability (SoA)** identifies the controls from **Annex A of ISO 27001:2022** that are applicable to **Mistral AI** and justifies their inclusion or exclusion. It also tracks the implementation status and the document(s) that implement each control. This document is a key artefact of the **Information Security Management System (ISMS)**.
 
 ---
 
 ## 2. Scope
 This SoA applies to all information assets, systems, and processes within the scope of the ISMS, including:
-- Customer data and intellectual property.
-- SaaS application code and infrastructure.
+- Model weights, training pipelines, datasets, and research intellectual property.
+- Customer prompts, API data, and personal data processed through La Plateforme and Le Chat.
+- Product and platform code and infrastructure, including owned compute (Mistral Compute) and EU cloud.
 - Internal documentation and communication systems.
-- Third-party suppliers and vendors.
+- Third-party suppliers and vendors (compute, hardware, data-centre, and cloud distribution partners).
+
+Full ISMS context and scope are defined in the **[ISMS Policy](policies/isms_policy.md)**.
 
 ---
 
@@ -48,7 +51,7 @@ The following table tracks implementation of the mandatory ISO 27001:2022 clause
 
 ## 4. Annex A Controls
 
-All 93 controls from Annex A are applicable to ACME CORP. Controls not yet implemented are marked ❓ TBC or ❓ TBC.
+All 93 controls from Annex A are applicable to Mistral AI. Controls not yet implemented are marked ❓ TBC or ❓ TBC.
 
 ### A.5 Organisational Controls
 
@@ -176,3 +179,4 @@ This SoA will be reviewed **annually** or after significant changes to the ISMS 
 |---------|------|-------|----------|---------|
 | 1.0 | TBD | ISMS Owner | CEO | Initial version |
 | 1.1 | TBD | ISMS Owner | CEO | Merged checklist into SoA: added Document column, clause requirements table, corrected stale statuses |
+| 1.2 | 2026-07-07 | ISMS Owner | CEO | Set organisation to Mistral AI and tailored scope to the Company's assets. Control statuses unchanged pending human approval. |

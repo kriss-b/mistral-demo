@@ -1,15 +1,17 @@
 # Statement of Applicability — ISO 42001:2023 (SoA)
 
 ## 1. Introduction
-This **Statement of Applicability (SoA)** identifies the controls from **Annex A of ISO 42001:2023** that are applicable to **ACME CORP** and justifies their inclusion or exclusion. It also tracks the implementation status and the document(s) that implement each control. This document is a key artefact of the **AI Management System (AIMS)**.
+This **Statement of Applicability (SoA)** identifies the controls from **Annex A of ISO 42001:2023** that are applicable to **Mistral AI** and justifies their inclusion or exclusion. It also tracks the implementation status and the document(s) that implement each control. This document is a key artefact of the **AI Management System (AIMS)**.
 
 ---
 
 ## 2. Scope
-This SoA applies to all AI systems developed, deployed, or used within the scope of the AIMS, including:
-- AI models developed internally.
-- Third-party AI services and APIs integrated into Company products or operations.
-- AI-assisted tools used by employees to process Company data.
+Mistral AI develops and provides frontier general-purpose AI (GPAI) models as its core business. Because the Company is a model **developer and provider**, the full ISO 42001:2023 Annex A control set is treated as applicable — including the AI system life-cycle (A.6) and data-for-AI (A.7) controls that a pure AI *deployer* might scope out. This SoA applies to all AI systems developed, deployed, or used within the scope of the AIMS, including:
+- Foundation models researched, trained, fine-tuned, and released by the Company (open-weight and commercial), and the products that serve them (Le Chat, La Plateforme).
+- Third-party AI models and services integrated into Company products (e.g., image generation in Le Chat), for which the Company acts as a deployer.
+- AI-assisted tools used by employees to process Company or customer data.
+
+Control statuses below remain to be confirmed (❓ TBC) pending the Company's own assessment; status changes require explicit human approval and a backing document per the ISMS governance rules.
 
 ---
 
@@ -151,3 +153,4 @@ This SoA will be reviewed **annually** or after significant changes to the AIMS,
 | Version | Date | Owner | Approver | Changes |
 |---------|------|-------|----------|---------|
 | 1.0 | TBD | CTO | CEO | Initial version |
+| 1.1 | 2026-07-07 | CTO | CEO | Set organisation to Mistral AI; tailored scope to reflect the Company as a GPAI model developer/provider (full Annex A applicable). Control statuses unchanged pending human approval. |

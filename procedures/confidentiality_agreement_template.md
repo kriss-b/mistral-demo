@@ -2,7 +2,7 @@
 
 This Confidentiality and Non-Disclosure Agreement (the "Agreement") is entered into as of **[DATE]** between:
 
-- **ACME CORP**, a company registered under the laws of **[JURISDICTION]**, with its registered office at **[ADDRESS]** (the "Company"); and
+- **Mistral AI**, a company registered under the laws of **France**, with its registered office at **[ADDRESS — Paris, France]** (the "Company"); and
 - **[FULL NAME / COMPANY NAME]**, residing at / registered at **[ADDRESS]** (the "Recipient").
 
 ---
@@ -86,7 +86,7 @@ The Recipient acknowledges that a breach of this Agreement may cause irreparable
 
 ## 9. Governing Law
 
-This Agreement shall be governed by and construed in accordance with the laws of **[JURISDICTION]**. Any disputes arising under this Agreement shall be subject to the exclusive jurisdiction of the courts of **[JURISDICTION]**.
+This Agreement shall be governed by and construed in accordance with the laws of **France**. Any disputes arising under this Agreement shall be subject to the exclusive jurisdiction of the competent courts of **Paris, France**.
 
 ---
 
