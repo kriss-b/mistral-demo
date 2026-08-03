@@ -20,8 +20,6 @@ These entries are an initial population of Mistral AI's key vendors across compu
 | SUP-012 | Identity provider (SSO/IdP) | Corporate IT | Single sign-on and identity management | ISO 27001, SOC 2 (verify) | --- | 2026-09-30 | Pending initial review | _(to confirm provider)_ |
 | SUP-013 | Observability / monitoring platform | Platform & Infrastructure | Logging, metrics, and monitoring | SOC 2 (verify) | --- | 2026-09-30 | Pending initial review | _(to confirm provider, e.g. Datadog/Grafana)_ |
 | SUP-014 | Payments provider (e.g. Stripe) | Finance | Billing and payments for La Plateforme / Le Chat subscriptions | PCI-DSS, SOC 2 (verify) | --- | 2026-09-30 | Pending initial review | _(to confirm provider)_ |
-| SUP-015 | Bitwarden | Corporate IT | Password / secrets management | ISO 27001, SOC 2 | --- | 2026-09-30 | Pending initial review | Listed as approved supplier in Supplier Security Policy |
-
 ---
 
 ## Changelog
