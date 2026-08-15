@@ -28,4 +28,4 @@ These entries are an initial population of Mistral AI's key vendors across compu
 |---------|------|-------|----------|---------|
 | 1.0 | TBD | COO | CEO | Initial version |
 | 1.1 | 2026-07-07 | COO | CEO | Populated initial supplier list (compute, infrastructure, cloud distribution, SaaS); all pending first vendor security review |
-| 1.2 | 2025-01-15 | User | TBD | Verified Hugging Face (SUP-008) compliance: SOC 2 Type II certified, ISO 27001 not held, GDPR compliant |
+| 1.2 | 2025-01-15 | COO | CEO | Verified Hugging Face (SUP-008) compliance: SOC 2 Type II certified, ISO 27001 not held, GDPR compliant |
