@@ -19,6 +19,7 @@ A full ISMS: policies and procedures, living operational records (logs and regis
 | `run/` | Operational records: logs and registers updated as the ISMS runs |
 | `checks/` | Automated compliance checks, one per control |
 | `iso42001/` | Optional ISO 42001:2023 AI Management System overlay |
+| `nis2/` | Optional NIS 2 overlay — national transpositions (France: **ReCyF**), each with its own SoA and checks |
 | `statement_of_applicability.md` | Master index mapping all 93 controls to status and documents |
 
 The `statement_of_applicability.md` is the master index. It maps every ISO 27001:2022 clause and Annex A control to its implementation status and the document that covers it. Start there to understand what exists and what gaps remain. The default status is intentionally 'not yet implemented' to force proactive review of all controls.
@@ -63,7 +64,7 @@ From there, iterate. The LLM can update policies and the SoA, run checks, mainta
 
 **Git is the changelog.** Per-document changelog tables exist for human readability, but git history is the authoritative record. Don't fight it.
 
-**ISO 42001 as an overlay, not a parallel system.** The `iso42001/` directory extends the ISMS rather than duplicating it. AI-specific controls live there; everything else is handled by cross-referencing existing ISO 27001 documents. This keeps the two standards in sync without maintaining redundant content.
+**Overlays, not parallel systems.** Additional frameworks extend the ISMS rather than duplicating it. The `iso42001/` directory adds AI-specific controls; the `nis2/` directory adds only the delta a national NIS 2 transposition (France's ReCyF) requires beyond ISO 27001. Everything else is handled by cross-referencing existing ISO 27001 documents. This keeps the frameworks in sync without maintaining redundant content.
 
 ---
 

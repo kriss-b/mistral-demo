@@ -5,7 +5,7 @@ This **Risk Register** documents identified risks, their assessment, and treatme
 
 The risks below were identified from Mistral AI's context as a frontier AI lab (see the **[ISMS Policy](../policies/isms_policy.md)** and **[AIMS Policy](../iso42001/policies/aims_policy.md)**). They are an initial set to be validated, scored, and treated through the Company's own risk assessment process; owners are recorded by role (see [Roles and Responsibilities Policy](../policies/roles_and_responsibilities_policy.md)). The `AI Specificity` column classifies each risk as `None`, `Indirect`, or `Direct`.
 
-**Treatment option** is one of `Mitigate`, `Accept`, `Avoid`, or `Transfer`. **Treatment controls** records the control identifiers selected to treat the risk and is the single source of truth for the risk-to-control mapping: bare identifiers refer to [Annex A of ISO 27001](../statement_of_applicability.md), `42001:` prefixed identifiers to [ISO 42001 Annex A](../iso42001/statement_of_applicability_iso42001.md), and `recyf:` prefixed identifiers to the NIS 2 / ReCyF overlay. **Treatment rationale** records why those controls were selected.
+**Treatment option** is one of `Mitigate`, `Accept`, `Avoid`, or `Transfer`. **Treatment controls** records the control identifiers selected to treat the risk and is the single source of truth for the risk-to-control mapping: bare identifiers refer to [Annex A of ISO 27001](../statement_of_applicability.md), `42001:` prefixed identifiers to [ISO 42001 Annex A](../iso42001/statement_of_applicability_iso42001.md), and `recyf:` prefixed identifiers to the [NIS 2 / ReCyF overlay](../nis2/recyf/statement_of_applicability_recyf.md). **Treatment rationale** records why those controls were selected.
 
 ---
 
