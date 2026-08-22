@@ -9,3 +9,5 @@
 | [semgrep](https://github.com/semgrep/semgrep) | LGPL-2.1 | Static code analysis check referenced in `checks/a08_28_secure_coding_check.md` |
 | [h8mail](https://github.com/khast3x/h8mail) | MIT | Credential breach check referenced in `checks/a05_07_credential_breach_check.md` |
 | [darkdump](https://github.com/josh0xA/darkdump) | MIT | Dark web exposure check referenced in `checks/a05_07_darkweb_exposure_check.md` |
+| [prowler](https://github.com/prowler-cloud/prowler) | Apache-2.0 | Authenticated public cloud storage check referenced in `checks/a05_23_public_cloud_storage_check.md` |
+| [cloud_enum](https://github.com/initstring/cloud_enum) | MIT | External cloud storage exposure check referenced in `checks/a05_23_cloud_storage_exposure_check.md` |
