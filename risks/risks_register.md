@@ -1,7 +1,7 @@
 # ISO 27001:2022 Risk Register
 
 ## **1. Introduction**
-This **Risk Register** documents identified risks, their assessment, and treatment plans. It is maintained in accordance with the **[Risk Assessment Framework](risk_assessment_framework.md)** and **ISO 27001:2022** requirements.
+This **Risk Register** documents identified risks, their assessment, and treatment plans. It is maintained in accordance with the **[Risk Assessment Procedure](risk_assessment_procedure.md)** and **ISO 27001:2022** requirements.
 
 The risks below were identified from Mistral AI's context as a frontier AI lab (see the **[ISMS Policy](../policies/isms_policy.md)** and **[AIMS Policy](../iso42001/policies/aims_policy.md)**). They are an initial set to be validated, scored, and treated through the Company's own risk assessment process; owners are recorded by role (see [Roles and Responsibilities Policy](../policies/roles_and_responsibilities_policy.md)). The `AI Specificity` column classifies each risk as `None`, `Indirect`, or `Direct`.
 
