@@ -11,16 +11,16 @@ This policy is aligned with **ISO 42001:2023 (Clauses 4, 5, 6, 8, 9 and 10)** an
 
 Mistral AI is committed to establishing, implementing, maintaining, and continually improving its AIMS in accordance with ISO 42001:2023.
 
-The objectives of the AIMS are to:
+The following are the AI management objectives for the current annual period. They take into account the results of the AI risk assessment and AI system impact assessments, and are reviewed and updated at each management review (see Section 10).
 
-- Ensure AI systems are developed and operated responsibly, with fairness, transparency, and human oversight.
-- Identify, assess, and treat AI-related risks and impacts in a systematic and proportionate manner.
-- Ensure compliance with applicable AI regulations, including the EU AI Act and ISO 42001:2023.
-- Build trust with customers, partners, and regulators through demonstrable AI governance practices.
-- Foster a culture of AI safety and ethical awareness across the organisation.
-- Protect individuals and society from potential harms arising from AI systems.
-
-These objectives are reviewed at least annually as part of the management review process (see Section 10).
+- 100% of AI systems in the [AI Systems Register](../../run/registers/ai_systems_register.md) have a completed impact assessment before deployment.
+- Zero AI systems in production with a harm rated High in its impact assessment and no documented mitigation.
+- Zero AI systems classified as high risk operating without documented human oversight measures.
+- 100% of AI systems in the register reviewed within the annual review cycle.
+- 100% of general-purpose AI models released — open-weight or commercial — have completed and documented safety evaluations before release.
+- 100% of released GPAI models have technical documentation sufficient to meet the Company's obligations as a GPAI provider under the EU AI Act.
+- 100% completion of AI safety training across all employees using AI tools by year-end.
+- 100% of AI suppliers assessed against AI governance requirements before onboarding.
 
 ---
 
@@ -200,7 +200,7 @@ The AIMS operates through the following recurring activities:
 ## 12. Description of Activities
 
 ### 12.1 AI Risk Assessment
-Risks specific to AI systems are identified, assessed, and treated in accordance with the **[Risk Assessment Framework](../../risks/risk_assessment_framework.md)** and **[Risk Assessment Procedure](../../risks/risk_assessment_procedure.md)**. Results are documented in the **[Risk Register](../../risks/risks_register.md)**, with AI Specificity classified as `Indirect` or `Direct`.
+Risks specific to AI systems are identified, assessed, and treated in accordance with the **[Risk Assessment Framework](../../risks/risk_assessment_framework.md)** and **[Risk Assessment Procedure](../../risks/risk_assessment_procedure.md)**. Results are documented in the **[Risk Register](../../risks/risks_register.md)**, with AI Specificity classified as `Indirect` or `Direct`. The **[AI Systems Register](../../run/registers/ai_systems_register.md)** maintains an inventory of all AI systems in scope.
 
 ### 12.2 AI System Impact Assessment
 Before any AI system is deployed, an impact assessment shall be completed in accordance with the **[AI System Impact Assessment Template](../procedures/ai_system_impact_assessment_template.md)**. The assessment evaluates potential harms to individuals, groups, and society, and defines mitigation measures and human oversight requirements.
@@ -268,3 +268,4 @@ This policy will be reviewed annually or following significant changes to the or
 |---------|------|-------|----------|---------|
 | 1.0 | TBD | CTO | CEO | Initial version |
 | 1.1 | 2026-07-07 | CTO | CEO | Tailored context, issues, and governance to Mistral AI as a developer/provider of frontier GPAI models; added Head of AI Safety and Chief Science Officer roles |
+| 1.2 | 2026-08-22 | CTO | CEO | Replaced aspirational AIMS objectives with measurable annual targets, including GPAI release evaluation and documentation targets; referenced the new AI Systems Register |
